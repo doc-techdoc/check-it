@@ -73,10 +73,10 @@ QGM.
 
 ### Порядок установки DPM
 
-1. Создать БД ‘dpm’.
+1. Создать БД ‘dpm’. 
 2. Отредактировать файл {wf_home}/bin/standalone.conf, добавить содержимое файла
-java_opts_dpm.txt в следующий раздел, прим.
-```
+java_opts_dpm.txt в следующий раздел, прим. 
+``` 
 # Specify options to pass to the Java VM.
 if [ "$JAVA_OPTS" = "x" ]; then
 ```
